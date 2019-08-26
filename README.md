@@ -10,9 +10,10 @@ terbaik. Web ini dibangun dengan menggunakan bahasa HTML, CSS, PHP, JAVASCRIPT,
 Framework Bootstrap 4, dan Framework Codeigniter.
 
 ## Tujuan
-Project ini bertujuan untuk menyelesaikan mata kuliah APPL dan IMPAL pada program studi S1 Teknik Informatika. 
+Project ini bertujuan untuk menyelesaikan mata kuliah APPL dan IMPAL pada program studi S1 Teknik Informatika.
 
 ## Team 
+### Kelas IF 41-10
 1. 1301174349 - Basil Haidi Farizan
 2. 1301170428 - Muchamad Aqiel Himan M
 3. 1301174303 - Revaldi Gilang Azhari
