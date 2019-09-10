@@ -12,6 +12,9 @@ Framework Bootstrap 4, dan Framework Codeigniter.
 ## Tujuan
 Project ini bertujuan untuk menyelesaikan mata kuliah APPL dan IMPAL pada program studi S1 Teknik Informatika.
 
+## Mockup
+Our Mockup made by [Figma](https://www.figma.com/file/M0yiJUiOynkpCDjMVJjNBLiq/Sistem-Peminjaman-Sarana-dan-Prasarana?node-id=7%3A67/)
+
 ## Team 
 ### Kelas IF 41-10
 1. 1301174349 - Basil Haidi Farizan
