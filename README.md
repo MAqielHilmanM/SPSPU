@@ -15,6 +15,18 @@ Project ini bertujuan untuk menyelesaikan mata kuliah APPL dan IMPAL pada progra
 ## Mockup
 Our Mockup made by [Figma](https://www.figma.com/file/M0yiJUiOynkpCDjMVJjNBLiq/Sistem-Peminjaman-Sarana-dan-Prasarana?node-id=7%3A67/)
 
+## Technology 
+1. [HTML5] (https://www.w3schools.com/html/)
+2. [CSS] (https://www.w3schools.com/css/)
+3. [Javascript] (https://www.w3schools.com/js/default.asp)
+4. [PHP] (https://www.w3schools.com/php/)
+5. [CodeIgniter] (https://codeigniter.com/)
+6. [MySQL] (https://www.w3schools.com/sql/default.asp)
+7. [Bootstrap] (https://getbootstrap.com/)
+8. [Template AdminLTE] (https://adminlte.io/)
+9. [XAMPP] (https://www.apachefriends.org/index.html)
+10. [JQuery] (https://www.w3schools.com/jquery/default.asp)
+
 ## Team 
 ### Kelas IF 41-10
 1. 1301174349 - Basil Haidi Farizan
