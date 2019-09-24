@@ -16,7 +16,7 @@
           </div>
         </div>
         <div class="card-body">
-          Start creating your amazing application!
+          Lorem Ipsum Sim dolor amet
         </div>
         <!-- /.card-body -->
         <div class="card-footer">

@@ -1,9 +1,9 @@
 
   <footer class="main-footer">
     <div class="float-right d-none d-sm-block">
-      <b>Version</b> 3.0.0-rc.1
+      <b>Version</b> 0.0.1 - Alpha
     </div>
-    <strong>Copyright &copy; 2014-2019 <a href="http://adminlte.io">AdminLTE.io</a>.</strong> All rights
+    <strong>Copyright &copy; 2014-2019 <a href="#">SPSPU Team</a>.</strong> All rights
     reserved.
   </footer>
 
