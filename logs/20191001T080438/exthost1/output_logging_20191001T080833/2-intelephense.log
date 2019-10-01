@@ -1,0 +1,30 @@
+[Info  - 8:08:33 AM] Initialising intelephense 1.2.3
+[Info  - 8:08:33 AM] Initialised in 13 ms
+[Info  - 8:08:33 AM] Indexing started.
+[Info  - 8:08:37 AM] Indexing ended. 307 files indexed in 3s.
+[Info  - 8:08:37 AM] Writing state to /opt/lampp/htdocs/SPSPU/User/workspaceStorage/74f914b12ca3ddee12c82ab942f5d179/bmewburn.vscode-intelephense-client/23472b94.
+[Info  - 8:08:37 AM] Wrote state in 0.4s.
+[Warn  - 8:10:52 AM] Error: ENOENT: no such file or directory, open '/opt/lampp/htdocs/SPSPU/application/models/Inventori_model copy.php'
+[Info  - 8:10:52 AM] Indexing started.
+[Info  - 8:10:53 AM] Indexing ended. 1 files indexed in 0s.
+[Warn  - 8:13:05 AM] Error: ENOENT: no such file or directory, open '/opt/lampp/htdocs/SPSPU/application/models/Verifikasi_model copy.php'
+[Info  - 8:13:06 AM] Indexing started.
+[Info  - 8:13:06 AM] Indexing ended. 1 files indexed in 0s.
+[Warn  - 8:14:49 AM] Error: ENOENT: no such file or directory, open '/opt/lampp/htdocs/SPSPU/application/models/Akun_model copy.php'
+[Info  - 8:14:49 AM] Indexing started.
+[Info  - 8:14:49 AM] Indexing ended. 1 files indexed in 0s.
+[Warn  - 8:15:54 AM] Error: ENOENT: no such file or directory, open '/opt/lampp/htdocs/SPSPU/application/models/Admin_model copy.php'
+[Info  - 8:15:55 AM] Indexing started.
+[Info  - 8:15:55 AM] Indexing ended. 1 files indexed in 0s.
+[Warn  - 8:18:48 AM] Error: ENOENT: no such file or directory, open '/opt/lampp/htdocs/SPSPU/application/models/Akun_model copy.php'
+[Info  - 8:18:48 AM] Indexing started.
+[Info  - 8:18:49 AM] Indexing ended. 1 files indexed in 0s.
+[Warn  - 8:19:10 AM] Error: ENOENT: no such file or directory, open '/opt/lampp/htdocs/SPSPU/application/models/.php'
+[Info  - 8:19:10 AM] Indexing started.
+[Info  - 8:19:10 AM] Indexing ended. 1 files indexed in 0s.
+[Warn  - 8:19:20 AM] Error: ENOENT: no such file or directory, open '/opt/lampp/htdocs/SPSPU/application/models/Akun_model copy.php'
+[Info  - 8:19:20 AM] Indexing started.
+[Info  - 8:19:21 AM] Indexing ended. 1 files indexed in 0s.
+[Warn  - 8:19:48 AM] Error: ENOENT: no such file or directory, open '/opt/lampp/htdocs/SPSPU/application/models/Akun_model copy 2.php'
+[Info  - 8:19:48 AM] Indexing started.
+[Info  - 8:19:49 AM] Indexing ended. 1 files indexed in 0s.

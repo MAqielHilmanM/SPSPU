@@ -1,0 +1,80 @@
+[2019-10-01 08:04:41.124] [exthost] [info] extension host started
+[2019-10-01 08:04:41.147] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-10-01 08:04:41.148] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-10-01 08:04:41.151] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-10-01 08:04:41.151] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-10-01 08:04:41.197] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-10-01 08:04:41.197] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2019-10-01 08:04:41.295] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-10-01 08:04:41.295] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-10-01 08:04:41.303] [exthost] [info] eager extensions activated
+[2019-10-01 08:04:59.987] [exthost] [info] extension host started
+[2019-10-01 08:04:59.999] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-10-01 08:04:59.999] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-10-01 08:05:00.003] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-10-01 08:05:00.003] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-10-01 08:05:00.078] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-10-01 08:05:00.078] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2019-10-01 08:05:00.190] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-10-01 08:05:00.190] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-10-01 08:05:00.197] [exthost] [info] eager extensions activated
+[2019-10-01 08:05:25.348] [exthost] [info] ExtensionService#_doActivateExtension vscode.php-language-features {"startup":false,"activationEvent":"onLanguage:php"}
+[2019-10-01 08:05:25.349] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/php-language-features/dist/phpMain
+[2019-10-01 08:08:33.117] [exthost] [info] ExtensionService#_doActivateExtension bmewburn.vscode-intelephense-client {"startup":false,"activationEvent":"onLanguage:php"}
+[2019-10-01 08:08:33.117] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension
+[2019-10-01 08:13:46.854] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2019-10-01 08:13:46.854] [exthost] [error] TypeError: Cannot read property 'name' of null
+	at F (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:177158)
+	at F (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:177303)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:181303)
+	at module.exports.registerLanguageProvider.t.sendRequest.then.e (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:39665)
+[2019-10-01 08:13:47.756] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2019-10-01 08:13:47.756] [exthost] [error] TypeError: Cannot read property 'name' of null
+	at F (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:177158)
+	at F (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:177303)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:181303)
+	at module.exports.registerLanguageProvider.t.sendRequest.then.e (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:39665)
+[2019-10-01 08:18:03.040] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2019-10-01 08:18:03.040] [exthost] [error] TypeError: Cannot read property 'name' of null
+	at F (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:177158)
+	at F (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:177303)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:181303)
+	at module.exports.registerLanguageProvider.t.sendRequest.then.e (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:39665)
+[2019-10-01 08:18:03.733] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2019-10-01 08:18:03.733] [exthost] [error] TypeError: Cannot read property 'name' of null
+	at F (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:177158)
+	at F (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:177303)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:181303)
+	at module.exports.registerLanguageProvider.t.sendRequest.then.e (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:39665)
+[2019-10-01 08:18:06.495] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2019-10-01 08:18:06.495] [exthost] [error] TypeError: Cannot read property 'name' of null
+	at F (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:177158)
+	at F (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:177303)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:181303)
+	at module.exports.registerLanguageProvider.t.sendRequest.then.e (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:39665)
+[2019-10-01 08:18:07.941] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2019-10-01 08:18:07.942] [exthost] [error] TypeError: Cannot read property 'name' of null
+	at F (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:177158)
+	at F (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:177303)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:181303)
+	at module.exports.registerLanguageProvider.t.sendRequest.then.e (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:39665)
+[2019-10-01 08:18:10.572] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2019-10-01 08:18:10.572] [exthost] [error] TypeError: Cannot read property 'name' of null
+	at F (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:177158)
+	at F (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:177303)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:181303)
+	at module.exports.registerLanguageProvider.t.sendRequest.then.e (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:39665)
+[2019-10-01 08:21:15.699] [exthost] [error] [bmewburn.vscode-intelephense-client] provider FAILED
+[2019-10-01 08:21:15.699] [exthost] [error] TypeError: Cannot read property 'name' of null
+	at F (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:177158)
+	at F (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:177303)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:181303)
+	at module.exports.registerLanguageProvider.t.sendRequest.then.e (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:39665)

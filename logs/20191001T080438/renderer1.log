@@ -1,0 +1,36 @@
+[2019-10-01 08:13:46.858] [renderer1] [error] Cannot read property 'name' of null: TypeError: Cannot read property 'name' of null
+	at F (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:177158)
+	at F (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:177303)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:181303)
+	at module.exports.registerLanguageProvider.t.sendRequest.then.e (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:39665)
+[2019-10-01 08:18:03.040] [renderer1] [error] Cannot read property 'name' of null: TypeError: Cannot read property 'name' of null
+	at F (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:177158)
+	at F (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:177303)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:181303)
+	at module.exports.registerLanguageProvider.t.sendRequest.then.e (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:39665)
+[2019-10-01 08:18:06.495] [renderer1] [error] Cannot read property 'name' of null: TypeError: Cannot read property 'name' of null
+	at F (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:177158)
+	at F (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:177303)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:181303)
+	at module.exports.registerLanguageProvider.t.sendRequest.then.e (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:39665)
+[2019-10-01 08:18:07.942] [renderer1] [error] Cannot read property 'name' of null: TypeError: Cannot read property 'name' of null
+	at F (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:177158)
+	at F (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:177303)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:181303)
+	at module.exports.registerLanguageProvider.t.sendRequest.then.e (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:39665)
+[2019-10-01 08:18:10.572] [renderer1] [error] Cannot read property 'name' of null: TypeError: Cannot read property 'name' of null
+	at F (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:177158)
+	at F (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:177303)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:181303)
+	at module.exports.registerLanguageProvider.t.sendRequest.then.e (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:39665)
+[2019-10-01 08:21:15.700] [renderer1] [error] Cannot read property 'name' of null: TypeError: Cannot read property 'name' of null
+	at F (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:177158)
+	at F (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:177303)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:181303)
+	at module.exports.registerLanguageProvider.t.sendRequest.then.e (/root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3/lib/extension.js:1:39665)

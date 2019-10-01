@@ -1,0 +1,8 @@
+[2019-10-01 08:04:42.171] [sharedprocess] [info] main {"machineId":"26b57ee7bc30b7a6b03be41f70b234d2e00c0e8e3931a9e89c1ca3c9caa0dca3"}
+[2019-10-01 08:05:22.161] [sharedprocess] [info] Starting to clean up unused language packs.
+[2019-10-01 08:08:28.676] [sharedprocess] [info] Installing extension: bmewburn.vscode-intelephense-client
+[2019-10-01 08:08:32.455] [sharedprocess] [info] Downloaded extension: bmewburn.vscode-intelephense-client /tmp/cc8224c0-69e7-4394-ae8f-cef71e40f8ac
+[2019-10-01 08:08:32.959] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.bmewburn.vscode-intelephense-client-1.2.3: bmewburn.vscode-intelephense-client
+[2019-10-01 08:08:32.959] [sharedprocess] [info] Renamed to /root/.vscode/extensions/bmewburn.vscode-intelephense-client-1.2.3
+[2019-10-01 08:08:32.966] [sharedprocess] [info] Installation completed. bmewburn.vscode-intelephense-client
+[2019-10-01 08:08:33.032] [sharedprocess] [info] Extensions installed successfully: bmewburn.vscode-intelephense-client
