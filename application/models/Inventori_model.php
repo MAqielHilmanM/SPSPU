@@ -26,7 +26,14 @@ Class Inventori_model extends CI_Model {
 
   function isAvailable($id){
     // TODO: check if stock isAvailable
-    return false
+    $this->db->where('id',$id) // select * where id = $id
+    $query = $this->db->get("nama_tabel") // STILL NOT COMPLETED, NEED TABLE NAME.
+    if(!isset($query)){ //IF Nothing is acquired from the query, return false.
+      return false
+    }else{
+      return true // Return True if there is something is acquired from the query.
+    }
+    
   }
 
 }
