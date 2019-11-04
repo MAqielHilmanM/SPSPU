@@ -1,5 +1,5 @@
 <?php
-Class Sarana_model extends Inventori_model {
+Class Prasarana_model extends Inventori_model {
 
   public function __construct()
       {
