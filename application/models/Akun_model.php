@@ -11,16 +11,9 @@ Class Verifikasi_model extends CI_Model {
   }
 
   function login($username, $password){
-    // TODO: check login status
-    $this->db->where("email = '$username' or username = '$username'");
-    $this->db->where('password',$password); 
-    $query = $this->db->get('tb_users');
-    if(!isset($query)){
-      return false;
-    }else{
-      // Return What? need more details qiel
-    }
-
+    // TODO: check login status 
+    // onlt return the status or shall i set the uername and password into a global variable?
+    return false;
   }
 
 }

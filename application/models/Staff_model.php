@@ -11,11 +11,13 @@ Class Verifikasi_model extends User_model  {
 
   function editProfile($staff){
     // TODO: check login status 
+    // tell me simply howto cgeck someone current login status?
     return false;
   }
 
   function getData(){
     // TODO: check login status 
+    // tell me simply how to get data from what and where should i fetch the data from. 
     return NULL;
   }
 
