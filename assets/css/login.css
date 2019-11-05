@@ -1,0 +1,64 @@
+.judul{
+    text-align: center;
+    color: #222222;
+    margin-top: 100px;
+}
+
+.judul .h1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+}
+
+.judul .h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 36px;
+}
+
+.container.background{
+    position:absolute;
+}
+
+.container.logo{
+    position:absolute;
+    width: 400px;
+    height: 400px;
+    top:50%;
+    left:65%;
+    margin-top:-100px;
+    margin-left:-100px;
+    color: #ffffff;
+}
+
+
+.form-group{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    transition: all 0.2s ease 0s;
+    border-radius: 5px;
+}
+
+.after-input{
+    margin-left: 10px;
+}
+
+.button{
+    width: 100%;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    border-radius: 8px;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #222222;
+}
+
+.button:hover{
+    background-color: #333333;
+}
