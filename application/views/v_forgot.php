@@ -12,48 +12,39 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <title>Register</title>
+    <title>Forgot Password</title>
 </head>
 <body>
-        <div class="container">
+    <div class="container forgot">
                 <div class="row">
                     <div class="col-5">
                         <div class="container form">
                             <div class="judul">
-                                <h2>Register</h2>
-                                <p>Please register to access our property </p>
-                            </div>    
+                                <h2>Forgot Password</h2>
+                                <p>Please enter your email to reset your password</p>
+                            </div>
                             <form action="">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" name="nama" placeholder="Nama">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" name="nip/nim" placeholder="NIP / NIM">
-                                </div>
-                                <div class="form-group">   
-                                    <input type="password" class="form-control" name="password" placeholder="Password">
-                                </div>
-                                <div class="form-group">
-                                    <input type="password" class="form-control" name="re_password" placeholder="RePassword">
+                                    <input type="email" class="form-control" name="email" placeholder="Email">
                                 </div>
                                 <div class="after-input">
-                                    <button type="submit" name="register_button" class="button">Daftar</button>
-                                    <p>Don't have account? <a href="">Create Account</a></p>
+                                    <button type="submit" name="forgot_button" class="button">Reset Password</button>
+                                    <p>Don't have accoun? <a href="">Create Account</a></p>
                                 </div>
                             </form>  
-                        </div>    
-                    </div>
+                        </div>
+                    </div>    
                     <div class="col-7">
                         <div class="container background">
-                            <img src="assets/img/background.png">
+                            <img src="<?php echo base_url();?>/assets/img/background.png">
                         </div>
                         <div class="container logo">  
-                            <img src="assets/img/logo.png" >
+                            <img src="<?php echo base_url();?>/assets/img/logo.png" >
                             <p>Sistem Peminjaman Sarana dan Prasarana Universitas</p>  
                         </div>
                     </div>   
                     </div>
                 </div>
-        </div>
+        </div>    
 </body>
 </html>

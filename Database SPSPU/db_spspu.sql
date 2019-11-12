@@ -2,10 +2,10 @@
 -- version 4.8.3
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Waktu pembuatan: 20 Okt 2019 pada 16.33
--- Versi server: 10.1.37-MariaDB
--- Versi PHP: 7.2.12
+-- Host: localhost
+-- Generation Time: Nov 12, 2019 at 04:04 AM
+-- Server version: 10.1.36-MariaDB
+-- PHP Version: 7.2.11
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -19,15 +19,18 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `spspu`
+-- Database: `db_spspu`
 --
+CREATE DATABASE IF NOT EXISTS `db_spspu` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `db_spspu`;
 
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `admin`
+-- Table structure for table `admin`
 --
 
+DROP TABLE IF EXISTS `admin`;
 CREATE TABLE `admin` (
   `id_admin` varchar(20) NOT NULL,
   `nip` varchar(20) NOT NULL,
@@ -40,26 +43,33 @@ CREATE TABLE `admin` (
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `akun`
+-- Table structure for table `akun`
 --
 
+DROP TABLE IF EXISTS `akun`;
 CREATE TABLE `akun` (
-  `id_user` int(20) NOT NULL,
+  `id_user` varchar(20) NOT NULL,
   `username` varchar(20) NOT NULL,
   `password` text NOT NULL,
   `email` text NOT NULL,
-  `level` enum('Admin','Staff','Mahasiswa') NOT NULL,
-  `id_admin` varchar(20) NOT NULL,
-  `nip` varchar(20) NOT NULL,
-  `nim` varchar(20) NOT NULL
+  `level` enum('Admin','Staff','Mahasiswa') NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `akun`
+--
+
+INSERT INTO `akun` (`id_user`, `username`, `password`, `email`, `level`) VALUES
+('1301170428', '1301170428', '5ad62906c0a165807687018c82b36db8', '', 'Mahasiswa'),
+('admin0', 'admin', '21232f297a57a5a743894a0e4a801fc3', 'admin@admin.com', 'Admin');
 
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `mahasiswa`
+-- Table structure for table `mahasiswa`
 --
 
+DROP TABLE IF EXISTS `mahasiswa`;
 CREATE TABLE `mahasiswa` (
   `nim` varchar(20) NOT NULL,
   `nama` varchar(50) NOT NULL,
@@ -68,12 +78,20 @@ CREATE TABLE `mahasiswa` (
   `fakultas` varchar(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+--
+-- Dumping data for table `mahasiswa`
+--
+
+INSERT INTO `mahasiswa` (`nim`, `nama`, `kelas`, `alamat`, `fakultas`) VALUES
+('1301170428', 'aqiel', '', '', '');
+
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `peminjaman`
+-- Table structure for table `peminjaman`
 --
 
+DROP TABLE IF EXISTS `peminjaman`;
 CREATE TABLE `peminjaman` (
   `id_peminjaman` varchar(20) NOT NULL,
   `tgl_peminjaman` date NOT NULL,
@@ -88,9 +106,10 @@ CREATE TABLE `peminjaman` (
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `pengembalian`
+-- Table structure for table `pengembalian`
 --
 
+DROP TABLE IF EXISTS `pengembalian`;
 CREATE TABLE `pengembalian` (
   `id_pengembalian` varchar(20) NOT NULL,
   `lama_peminjaman` date NOT NULL,
@@ -105,9 +124,10 @@ CREATE TABLE `pengembalian` (
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `prasarana`
+-- Table structure for table `prasarana`
 --
 
+DROP TABLE IF EXISTS `prasarana`;
 CREATE TABLE `prasarana` (
   `id_prasarana` varchar(20) NOT NULL,
   `nama_prasarana` varchar(20) NOT NULL,
@@ -117,9 +137,10 @@ CREATE TABLE `prasarana` (
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `sarana`
+-- Table structure for table `sarana`
 --
 
+DROP TABLE IF EXISTS `sarana`;
 CREATE TABLE `sarana` (
   `id_sarana` varchar(20) NOT NULL,
   `nama_sarana` varchar(20) NOT NULL,
@@ -131,9 +152,10 @@ CREATE TABLE `sarana` (
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `staff`
+-- Table structure for table `staff`
 --
 
+DROP TABLE IF EXISTS `staff`;
 CREATE TABLE `staff` (
   `nip` varchar(20) NOT NULL,
   `nama` varchar(50) NOT NULL,
@@ -146,9 +168,10 @@ CREATE TABLE `staff` (
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `verifikasi`
+-- Table structure for table `verifikasi`
 --
 
+DROP TABLE IF EXISTS `verifikasi`;
 CREATE TABLE `verifikasi` (
   `id_verifikasi` varchar(20) NOT NULL,
   `tgl_verifikasi` date NOT NULL,
@@ -162,28 +185,25 @@ CREATE TABLE `verifikasi` (
 --
 
 --
--- Indeks untuk tabel `admin`
+-- Indexes for table `admin`
 --
 ALTER TABLE `admin`
   ADD PRIMARY KEY (`id_admin`);
 
 --
--- Indeks untuk tabel `akun`
+-- Indexes for table `akun`
 --
 ALTER TABLE `akun`
-  ADD PRIMARY KEY (`id_user`),
-  ADD UNIQUE KEY `nip` (`nip`),
-  ADD UNIQUE KEY `nim` (`nim`),
-  ADD UNIQUE KEY `id_admin` (`id_admin`);
+  ADD PRIMARY KEY (`id_user`);
 
 --
--- Indeks untuk tabel `mahasiswa`
+-- Indexes for table `mahasiswa`
 --
 ALTER TABLE `mahasiswa`
   ADD PRIMARY KEY (`nim`);
 
 --
--- Indeks untuk tabel `peminjaman`
+-- Indexes for table `peminjaman`
 --
 ALTER TABLE `peminjaman`
   ADD PRIMARY KEY (`id_peminjaman`),
@@ -193,7 +213,7 @@ ALTER TABLE `peminjaman`
   ADD UNIQUE KEY `id_sarana` (`id_sarana`);
 
 --
--- Indeks untuk tabel `pengembalian`
+-- Indexes for table `pengembalian`
 --
 ALTER TABLE `pengembalian`
   ADD PRIMARY KEY (`id_pengembalian`),
@@ -203,26 +223,26 @@ ALTER TABLE `pengembalian`
   ADD UNIQUE KEY `id_sarana` (`id_sarana`);
 
 --
--- Indeks untuk tabel `prasarana`
+-- Indexes for table `prasarana`
 --
 ALTER TABLE `prasarana`
   ADD PRIMARY KEY (`id_prasarana`);
 
 --
--- Indeks untuk tabel `sarana`
+-- Indexes for table `sarana`
 --
 ALTER TABLE `sarana`
   ADD PRIMARY KEY (`id_sarana`),
   ADD UNIQUE KEY `id_prasarana` (`id_prasarana`);
 
 --
--- Indeks untuk tabel `staff`
+-- Indexes for table `staff`
 --
 ALTER TABLE `staff`
   ADD PRIMARY KEY (`nip`);
 
 --
--- Indeks untuk tabel `verifikasi`
+-- Indexes for table `verifikasi`
 --
 ALTER TABLE `verifikasi`
   ADD PRIMARY KEY (`id_verifikasi`),
@@ -230,29 +250,11 @@ ALTER TABLE `verifikasi`
   ADD UNIQUE KEY `id_peminjaman` (`id_peminjaman`);
 
 --
--- AUTO_INCREMENT untuk tabel yang dibuang
+-- Constraints for dumped tables
 --
 
 --
--- AUTO_INCREMENT untuk tabel `akun`
---
-ALTER TABLE `akun`
-  MODIFY `id_user` int(20) NOT NULL AUTO_INCREMENT;
-
---
--- Ketidakleluasaan untuk tabel pelimpahan (Dumped Tables)
---
-
---
--- Ketidakleluasaan untuk tabel `akun`
---
-ALTER TABLE `akun`
-  ADD CONSTRAINT `akun_ibfk_2` FOREIGN KEY (`nim`) REFERENCES `mahasiswa` (`nim`),
-  ADD CONSTRAINT `akun_ibfk_3` FOREIGN KEY (`id_admin`) REFERENCES `admin` (`id_admin`),
-  ADD CONSTRAINT `akun_ibfk_4` FOREIGN KEY (`nip`) REFERENCES `staff` (`nip`);
-
---
--- Ketidakleluasaan untuk tabel `peminjaman`
+-- Constraints for table `peminjaman`
 --
 ALTER TABLE `peminjaman`
   ADD CONSTRAINT `peminjaman_ibfk_1` FOREIGN KEY (`nip`) REFERENCES `staff` (`nip`),
@@ -261,7 +263,7 @@ ALTER TABLE `peminjaman`
   ADD CONSTRAINT `peminjaman_ibfk_4` FOREIGN KEY (`id_prasarana`) REFERENCES `prasarana` (`id_prasarana`);
 
 --
--- Ketidakleluasaan untuk tabel `pengembalian`
+-- Constraints for table `pengembalian`
 --
 ALTER TABLE `pengembalian`
   ADD CONSTRAINT `pengembalian_ibfk_1` FOREIGN KEY (`id_admin`) REFERENCES `admin` (`id_admin`),
@@ -270,13 +272,13 @@ ALTER TABLE `pengembalian`
   ADD CONSTRAINT `pengembalian_ibfk_4` FOREIGN KEY (`id_sarana`) REFERENCES `sarana` (`id_sarana`);
 
 --
--- Ketidakleluasaan untuk tabel `sarana`
+-- Constraints for table `sarana`
 --
 ALTER TABLE `sarana`
   ADD CONSTRAINT `sarana_ibfk_1` FOREIGN KEY (`id_prasarana`) REFERENCES `prasarana` (`id_prasarana`);
 
 --
--- Ketidakleluasaan untuk tabel `verifikasi`
+-- Constraints for table `verifikasi`
 --
 ALTER TABLE `verifikasi`
   ADD CONSTRAINT `verifikasi_ibfk_1` FOREIGN KEY (`id_admin`) REFERENCES `admin` (`id_admin`),

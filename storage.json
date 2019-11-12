@@ -1376,5 +1376,19 @@
     },
     "theme": "vs-dark",
     "themeBackground": "#1e1e1e",
-    "pickerWorkingDir": "/opt/lampp/htdocs"
+    "pickerWorkingDir": "/opt/lampp/htdocs",
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///opt/lampp/htdocs/SPSPU",
+            "backupPath": "/opt/lampp/htdocs/SPSPU/Backups/f35d7beda9a73b919d9f394f38477371",
+            "uiState": {
+                "mode": 0,
+                "x": 171,
+                "y": 40,
+                "width": 1024,
+                "height": 728
+            }
+        },
+        "openedWindows": []
+    }
 }

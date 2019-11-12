@@ -24,7 +24,7 @@
                             <h1>SPSPU</h1>
                             <p>Please continue to access our property</p>
                         </div>
-                        <form >
+                        <form method="POST">
                             <div class="form-group">
                                 <input  type="text" class="form-control" name="username" placeholder="NIP / NIM">
                             </div>
@@ -32,18 +32,18 @@
                                 <input  type="password" class="form-control" name="password" placeholder="Password">
                             </div>
                             <div class="after-input">
-                                <p><a href="">Forgot Password ?</a></p>
+                                <p><a href="<?php echo base_url();?>/index.php/ForgotPassword">Forgot Password ?</a></p>
                                 <button type="submit" name="login_button" class="button">Masuk</button>
-                                <p>Don't have account? <a href="">Create Account</a></p>
+                                <p>Don't have account? <a href="<?php echo base_url();?>/index.php/main/register">Create Account</a></p>
                             </div>
                         </form>  
                     </div>      
                 </div>
                 <div class="col-7">
                     <div class= "container background"></div>
-                        <img src="assets/img/background.png">
+                        <img src="<?php echo base_url();?>/assets/img/background.png">
                         <div class="container logo">
-                            <img src="assets/img/logo.png" >
+                            <img src="<?php echo base_url();?>/assets/img/logo.png" >
                             <p>Sistem Peminjaman Sarana dan Prasarana Universitas</p>  
                     </div>
                 </div>      

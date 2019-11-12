@@ -17,4 +17,4 @@ Class User_model extends Akun_model {
 
 }
 
- ?>
+?>
